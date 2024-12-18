@@ -61,8 +61,13 @@ import { Banner } from '../../../models/banner.model';
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: white;
+      color: black;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px; 
+      padding: 20px; 
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .banner-content h2 {
