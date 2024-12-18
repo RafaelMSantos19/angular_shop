@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule],
   template: `
     <nav class="navbar">
-      <a routerLink="/" class="brand">Minha Loja</a>
+      <a routerLink="/" class="brand">H-Toy Geek</a>
       <div class="nav-links">
         <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
         <a routerLink="/products" routerLinkActive="active">Produtos</a>
